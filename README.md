@@ -51,3 +51,6 @@ git pull
 git push
 
 ```
+## branch
+mostrar branches no computador
+git branch
