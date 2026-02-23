@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+
+}
+body {
+    color: aliceblue;
+    background-color: chartreuse;
+    background-image: url("fundo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;    
+}
+
+
+h2{
+    color: aliceblue;
+    text-align: center;
+    font-size: 60px;
+
+
+}
+
+p{
+    
+    text-align: justify;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+
+}
