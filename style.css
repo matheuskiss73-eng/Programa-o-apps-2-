@@ -6,10 +6,31 @@
 
 
 }
-body {
-    color: aliceblue;
+
+
+.primeira.pgn{
+    color: rgb(255, 255, 255);
     background-color: chartreuse;
-    background-image: url("fundo.jpg");
+    background-image: url("images.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;    
+}
+
+.segunda.pgn{
+    color: rgb(238, 0, 0);
+    background-color: chartreuse;
+    background-image: url("images2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;    
+}
+.terceira.pgn{
+    color: rgb(0, 0, 0);
+    background-color: chartreuse;
+    background-image: url("images3.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -18,13 +39,12 @@ body {
 
 
 h2{
-    color: aliceblue;
+    color: rgb(255, 255, 255);
     text-align: center;
     font-size: 60px;
 
 
 }
-
 p{
     
     text-align: justify;
@@ -33,4 +53,20 @@ p{
 
 
 
+}
+
+img {
+    display: block;
+    max-width: 300px;
+    margin: 10px auto;
+}
+button {
+    display: block;
+    margin: 20px auto;
+    cursor: pointer;
+    padding: 5px 30px;
+    border-radius: 30px;
+}
+ol {
+    margin: 10px auto; 
 }
