@@ -1,0 +1,78 @@
+/* Importando uma fonte impactante */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
+
+body {
+    background-color: #000b29; /* Azul Marinho Red Bull */
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: white;
+}
+
+.container {
+    background: linear-gradient(135deg, #ffffff 50%, #dbdada 50%); /* Efeito Prata do Red Bull */
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    width: 350px;
+    border-top: 8px solid #ed1c24; /* Faixa Vermelha */
+}
+
+h1 {
+    color: #000838;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+label {
+    color: #333;
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input {
+    width: 80%;
+    padding: 10px;
+    border: 2px solid #000b29;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+button {
+    background-color: #ed1c24; /* Vermelho Touro */
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: transform 0.2s, background-color 0.2s;
+    border-bottom: 4px solid #ffcc00; /* Detalhe Amarelo */
+}
+
+button:hover {
+    background-color: #b9151b;
+    transform: scale(1.05);
+}
+
+#resultadoTabuada {
+    margin-top: 20px;
+    color: #000b29;
+    text-align: left;
+    display: inline-block;
+}
+
+p {
+    margin: 5px 0;
+    font-size: 1.1rem;
+    border-bottom: 1px solid #ddd;
+}
