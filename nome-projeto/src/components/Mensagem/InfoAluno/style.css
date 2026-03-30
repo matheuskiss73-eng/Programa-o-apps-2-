@@ -1,0 +1,68 @@
+/* Estilização do Card de Informações */
+.info-aluno {
+    background-color: #fdfdfd;
+    border: 4px solid #cc0000; /* Vermelho do colete */
+    border-radius: 15px;
+    padding: 20px;
+    width: 300px;
+    font-family: 'Arial Black', sans-serif;
+    color: #333;
+    box-shadow: 8px 8px 0px #ffcc00; /* Amarelo do chapéu de palha */
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Título */
+.info-aluno h2 {
+    color: #cc0000;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #ffcc00;
+    display: inline-block;
+}
+
+/* Parágrafos (Nome, Idade, Curso) */
+.info-aluno p {
+    font-size: 1.1rem;
+    margin: 8px 0;
+    transition: transform 0.3s ease;
+}
+
+/* --- EFEITOS AO PASSAR O MOUSE (HOVER) --- */
+
+.info-aluno:hover {
+    /* Efeito "Gear Second": o card treme levemente e muda de cor */
+    transform: scale(1.05) rotate(-2deg);
+    background-color: #ffe6e6; /* Tom rosado leve */
+    border-color: #ffcc00;
+    box-shadow: 0px 0px 20px rgba(204, 0, 0, 0.6);
+}
+
+.info-aluno:hover h2 {
+    color: #000;
+    letter-spacing: 1px;
+}
+
+.info-aluno:hover p {
+    transform: translateX(10px); /* Texto desliza para a direita */
+    color: #cc0000;
+    font-weight: bold;
+}
+
+/* Detalhe decorativo que aparece no hover (opcional) */
+.info-aluno::after {
+    content: "⚓";
+    position: absolute;
+    bottom: -20px;
+    right: 10px;
+    font-size: 40px;
+    opacity: 0.1;
+    transition: all 0.5s;
+}
+
+.info-aluno:hover::after {
+    bottom: 10px;
+    opacity: 1;
+}
